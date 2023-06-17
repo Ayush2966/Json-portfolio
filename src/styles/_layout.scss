@@ -1,0 +1,95 @@
+@use 'util' as *;
+
+.contact-form {
+    margin-block: 2rem;
+    margin-left: 1rem;
+    user-select: none;
+    min-height: 55vh;
+
+    textarea,
+    input {
+        padding-inline: 10px;
+        border: none;
+        outline: none;
+        background: $sec-clr;
+        border-radius: 5px;
+        height: 1.5rem;
+        width: 8rem;
+        margin-block: 5px;
+        color: $txt-clr;
+        caret-color: aqua;
+    }
+
+    textarea {
+        padding-block: 5px
+    }
+
+    button {
+        background: $sec-clr;
+        border: none;
+        color: $txt-clr;
+        padding: 0.5rem 0.8rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+    }
+
+    &__code {
+        margin-top: 1rem;
+
+        &__block {
+            &__1 {
+                margin-left: 1rem;
+            }
+
+            &__2 {
+                margin-left: 1.5rem;
+            }
+
+            &__3 {
+                margin-left: 1.5rem;
+            }
+        }
+
+        &__message-field {
+            display: flex;
+            align-items: flex-start;
+        }
+    }
+
+    .submit-message {
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+.root {
+
+    &__code{
+        min-height: 80vh;
+    }
+    
+    &__stop-btn-container {
+        // display: block;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 1;
+        margin: 1rem 1.5rem;
+
+        &__btn {
+            color: grey;
+            background-color: rgb(20, 20, 20);
+            padding: 0.6rem 1.5rem;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+
+            &:disabled {
+                color: rgba(255, 255, 255, 0.5);
+                background-color: rgba(20, 20, 20, 0.5);
+                cursor: not-allowed;
+            }
+        }
+
+    }
+}

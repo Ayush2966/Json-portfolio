@@ -1,0 +1,19 @@
+  @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400,700&display=swap');
+
+
+  .contact-form {
+    color: white;
+    font-family: 'Courier Prime', monospace, sans-serif;
+
+    &__title {
+      font-weight: 700;
+    }
+
+    &__code {
+      &__line {
+        font-size: 1rem;
+        color: rgb(201, 201, 201);
+        line-height: 1.5;
+      }
+    }
+  }

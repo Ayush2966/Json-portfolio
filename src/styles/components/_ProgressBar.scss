@@ -1,0 +1,16 @@
+@use "../util" as *;
+
+#progress-bar-container {
+    margin-top: 1.5rem;
+    height: 5px;
+    background-color: $sec-clr;
+    border-radius: 50px;
+    overflow: hidden;
+    width: 5rem;
+
+    #progress-bar {
+        height: 100%;
+        background-color: $fg-clr;
+        animation: progress-bar 3s ease forwards;
+    }
+}

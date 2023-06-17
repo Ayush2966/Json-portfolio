@@ -1,0 +1,8 @@
+@use "../util" as *;
+
+.line-break {
+    display: none;
+    height: 2px;
+    background: $fg-clr;
+    animation: scaleX 2s ease forwards;
+}

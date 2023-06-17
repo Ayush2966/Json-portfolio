@@ -1,0 +1,106 @@
+{
+    "bio": {
+        "name": "Ayush Jain",
+        "age": 20,
+        "gender": "male",
+        "nationality": "Indian",
+        "title": "programmer",
+        "hobbies": [
+            "music",
+            "travel",
+            "drawing"
+        ]
+    },
+    "skills": [
+        "NodeJS",
+        "ExpressJS",
+        "NextJS",
+        "ReactJS",
+        "Javascript",
+        "HTML/CSS",
+        "MongoDB",        
+        "C/C++",
+        "Linux",
+        "Bash",
+        "Git/Github"
+    ],
+    "specialty": {
+        "frontend": [
+            "ReactJS",
+            "VueJS",
+            "NextJS"
+        ],
+        "backend": [
+            "NodeJS",
+            "ExpressJS"
+        ],
+        "database": [
+            "MongoDB"
+        ]
+    },
+    "education": {
+        "B.Tech": {
+            "college": "IIIT-Bhopal",
+            "course": "Information Technology",
+            "duration": "2021 - 2025"
+        }
+    },
+    "projects": {
+        "core": {
+            "Desk-Native": {
+                "description": "Web tech tool to build Native Desktop Apps.",
+                "link": "https://github.com/TheSudoersClub/Desk-Native",
+                "stack": [
+                    "Node.js",
+                    "express.js"
+                ]
+            },
+            "IncognitoTalk": {
+                "description": "Anonymous chat rooms",
+                "link": "https://github.com/TheSudoersClub/IncognitoTalk",
+                "stack": [
+                    "Node.js",
+                    "express.js",
+                    "HTML/CSS/JS"
+                ]
+            },
+            "MasterKey": {
+                "description": "CLI password Manager",
+                "link": "https://thesudoersclub.github.io/projects/masterkey/",
+                "stack": [
+                    "C",
+                    "bash",
+                    "python"
+                ]
+            }
+        },
+        
+        "mini-projects": {
+            "TimeLineup": {
+                "description": "Time Table manager",
+                "link": "https://github.com/TheSudoersClub/TimeLineup",
+                "stack": [
+                    "HTML",
+                    "CSS",
+                    "Javascript"
+                ]
+            },
+            "Randomizer": {
+                "description": "Spin Wheel / Toss",
+                "link": "https://github.com/TheSudoersClub/Randomizer",
+                "stack": [
+                    "HTML",
+                    "CSS",
+                    "Javascript"
+                ]
+            }
+        }
+    },
+    "socials": {
+        "website": "`${window.location.href}`",
+        "Linkedin": "https://www.linkedin.com/in/ayush-jain-315b51228/",
+        "Github": "https://github.com/Ayush2966",
+        "Blog": "https://medium.com/@ayushjain",
+        "Email": "ajsa02812@gmail.com"
+    }
+}

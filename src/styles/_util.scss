@@ -1,0 +1,26 @@
+// var 
+$bg-clr: rgb(0, 0, 0);
+$sec-clr: rgb(20, 20, 20);
+$fg-clr: gray;
+$txt-clr: white;
+
+// animations
+@keyframes scaleX {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100vw;
+    }
+}
+
+@keyframes progress-bar {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 5rem;
+    }
+}
